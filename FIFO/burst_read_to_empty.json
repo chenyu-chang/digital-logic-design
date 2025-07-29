@@ -1,0 +1,20 @@
+{
+  "signal": [    
+    { "name": "aclk", "wave": "P.........", "period": 1 }, 
+    { "name": "full", "wave": "1.0.......", "period": 1 },     
+    { "name": "write_en", "wave": "0.....10..", "period": 1 },     
+    { "name": "write_data", "wave": "x.....=x..", "period": 1, "data":["DATA-5"] },
+    { "name": "empty", "wave": "0....1.0..", "period": 1 },     
+    { "name": "read_en", "wave": "01......0.", "period": 1 },     
+    { "name": "read_data", "wave": "x.====..=.", "period": 1, "data":["DATA-1", "DATA-2", "DATA-3", "DATA-4", "DATA-5"] }
+    
+  ],
+  "config": { "hscale": 2 },
+  "head": {
+    "text": "FIFO depth = 4, Burst length = 5"
+  },
+  "foot": {
+    "text": "Figure 2: Burst read to empty and continue reading to complete."
+  }
+}
+
