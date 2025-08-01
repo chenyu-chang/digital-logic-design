@@ -1,0 +1,22 @@
+{
+  "signal": [    
+    { "name": "source clock", "wave": "P.........", "period": 2 }, 
+    { "name": "select (clock reset)", "wave": "0.1.................", "period": 1 },     
+    { "name": "i_and1", "wave": "1.0.................", "period": 1 },     
+    { "name": "sync1_o[0]", "wave": "1..0................", "period": 1 },     
+    { "name": "sync1_o[1]", "wave": "1....0..............", "period": 1 },     
+    { "name": "i_and2", "wave": "0....1..............", "period": 1 },
+    { "name": "DIV2", "wave": "0..P.", "period": 4 },     
+    { "name": "CKDIV reset (delayed clock reset)", "wave": "0....1....", "period": 2 },     
+    { "name": "sync2_o[0]", "wave": "0......1..", "period": 2 },     
+    { "name": "sync2_o[1]", "wave": "0........1", "period": 2 }
+  ],
+  "config": { "hscale": 1 },
+  "head": {
+    "text": "Deglitch Mux"
+  },
+  "foot": {
+    "text": "Figure 1: Switch from source(0) to divider output(1)."
+  }
+}
+
