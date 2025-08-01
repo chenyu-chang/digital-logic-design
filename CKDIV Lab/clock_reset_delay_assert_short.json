@@ -1,0 +1,17 @@
+{
+  "signal": [    
+    { "name": "source clock", "wave": "P.............", "period": 1 }, 
+    { "name": "clock reset", "wave": "0.1....0......", "period": 1 }, 
+    { "name": "clock reset 4T delay", "wave": "x.....1....0..", "period": 1 }, 
+    { "name": "ckdiv_rstn", "wave": "x.1........0..", "period": 1 }, 
+    { "name": "sel", "wave": "0..1...0......", "period": 1 }
+  ],
+  "config": { "hscale": 1 },
+  "head": {
+    "text": "Reset signals"
+  },
+  "foot": {
+    "text": "Figure 3: 'clock reset' signal assert time is too short for ckdiv to detect ckdiv_rstn going low."
+  }
+}
+
