@@ -4,7 +4,7 @@
     { "name": "clock reset", "wave": "0.....1....0.....", "period": 1 }, 
     { "name": "clock reset 4T delay", "wave": "x...0.....1....0.", "period": 1 }, 
     { "name": "ckdiv_rstn", "wave": "x...0.1........0.", "period": 1 }, 
-    { "name": "sel", "wave": "0......1...0.....", "period": 1 }
+    { "name": "sel", "wave": "0.......1..0.....", "period": 1 }
   ],
   "config": { "hscale": 1 },
   "head": {
